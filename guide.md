@@ -1,4 +1,4 @@
-# ssac08_react
+# ssac08_react push test
 
 - node module : node.js module folder
 - public : 실제 브라우저에 표시되는 리소스들이 저장되는 폴더
