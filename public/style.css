@@ -77,13 +77,14 @@ mark{
 }
 
 .header-section{
-	width:540px;
+	max-width:540px;
 	margin:0 auto;
+	padding:150px 20px 0 20px;
 }
 
 .header-logo{
 	font-family:SF_IceLemon, sans-serif;
-	font-size:30px;	
+	font-size:50px;	
 }
 
 .header-form{
@@ -108,12 +109,14 @@ mark{
 
 .header-form-text{
 	height:24px;
+	line-height:25px;
 	background:none;
 	border:0;
 	padding:0;
 	color:#dddddd;
 	font-size:16px;
 	flex:1;
+	font-family:Cafe24SsurroundAir, sans-serif;
 }
 
 .header-form-text:focus{
@@ -121,3 +124,83 @@ mark{
 	border-bottom:1px solid #999999;
 }
 
+.main{
+	padding-top:30px;
+}
+
+.section{
+	max-width:540px;
+	margin:0 auto;
+	padding:0 20px;
+}
+
+.todo-item{
+	padding:20px;
+	background-color:#25273c;
+	display:flex;
+	border-bottom:1px solid #323449;
+}
+
+.todo-item-check{
+	background:none;
+	border:none;
+	width:24px;
+	height:24px;
+	margin:0 15px 0 0;
+}
+
+.todo-item-text{
+	height:24px;
+	line-height:26px;
+	padding:0;
+	color:#dddddd;
+	font-size:16px;
+	flex:1;
+	font-family:Cafe24SsurroundAir, sans-serif;
+}
+
+.todo-item-del{
+	width:24px;
+	height:24px;
+	background:none;
+	border:none;
+	padding:0;
+	margin-left:15px;
+}
+
+.todo-item-img{
+	width:24px;
+	height:24px;
+	transform:rotate(45deg); /* deg : degree */
+}
+
+.status-section{
+	padding:20px;
+	background-color:#25273c;
+	display:flex;
+	justify-content: space-between;
+}
+
+.status-section button{
+	background:none;
+	border:none;
+	color:#999999;
+	font-size:13px;
+	height:22px;
+	line-height:22px;
+	padding:0;
+}
+.status-section button:hover{
+	color:#eeeeee;
+}
+
+.status-section button.active{
+	color:#3a7bfd;
+}
+
+.status-left{
+	color:#999999;
+	font-size:13px;
+	height:22px;
+	line-height:22px;
+}
