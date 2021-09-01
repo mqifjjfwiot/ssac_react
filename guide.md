@@ -5,10 +5,15 @@
 - src : html 파일에 반영되는(렌더링) 콘텐츠, 기능이 구현되어 있는 파일들이 저장되어 있는 폴더
 - index.html <= index.js <= App.js(component)
 
-
 ## react
 
 - 공식 문서 : https://ko.reactjs.org/
+
+### localhost URL
+- 로컬 서버에서 실행을 할떄 사용할 수 있는 키워드 URL
+- localhost => IP 주소 : 127.0.0.1
+- port - URL:port번호
+    - 하나의 물리 서버에서 여러개의 서버 SW를 실행할 수 있음
 
 ## React의 특징
 
