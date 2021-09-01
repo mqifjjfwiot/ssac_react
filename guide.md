@@ -1,4 +1,4 @@
-# ssac08_react push test
+# ssac08_react
 
 - node module : node.js module folder
 - public : 실제 브라우저에 표시되는 리소스들이 저장되는 폴더
@@ -17,7 +17,6 @@
 - component : 작은 단위로 나누어준 코드 블럭(단위, 조각)
 
 ### JSX(Javascript Syntax Extension / Javscript XML)
-
 
 - HTML 마크업 언어를 별다른 기호 사용없이 그대로 Javascript 구문처럼 사용할 수 있는 것
 - Babel.js 라이브러리가 JSX를 사용가능하게 해줌
