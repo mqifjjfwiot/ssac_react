@@ -33,6 +33,7 @@ function AppArray() {
     const { property, value } = e.target;
 
     setCarInput({
+      ...carInput,
       [property]: value,
     });
   };
