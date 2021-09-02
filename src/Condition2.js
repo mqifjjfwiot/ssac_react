@@ -1,15 +1,15 @@
-import Hello from "./Hello";
-import Hello2 from "./Hello2";
+import Hello from './Hello';
+import Hello2 from './Hello2';
 
-function Condition2(){
-    let isLogin = true;
+function Condition2() {
+  let isLogin = true;
 
-    return(
-        <>
-            {isLogin && <Hello />}
-            {!isLogin && <Hello2 />}
-        </>
-    );
+  return (
+    <>
+      {isLogin && <Hello />}
+      {!isLogin && <Hello2 />}
+    </>
+  );
 }
 
 export default Condition2;
