@@ -1,5 +1,3 @@
-import { useState } from 'react';
-
 function HookArrayCreate({ name, color, changeText }) {
   return (
     <div>
