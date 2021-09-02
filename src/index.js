@@ -4,11 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import AppEvent from './AppEvent';
+import AppArray from './AppArray';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <App /> */}
-    <AppEvent />
+    {/* <AppEvent /> */}
+    <AppArray />
   </React.StrictMode>,
   document.getElementById('root'),
 );
